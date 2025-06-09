@@ -1,0 +1,23 @@
+{
+  "name": "catalogo_mrpartes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camoto2103/catalogo_MRpartes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camoto2103/catalogo_MRpartes/issues"
+  },
+  "homepage": "https://github.com/Camoto2103/catalogo_MRpartes#readme",
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
+}
