@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función para cargar los productos desde el JSON
     async function fetchProducts() {
         try {
-            const response = await fetch('data/products.json');
+            const response = await fetch('data/catalogo_mrpartes.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Catalogo MR Partes</title>
 </head>
 <body>
-     <header>
-        <h1>Catálogo GEO MOTOS</h1>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Buscar producto por nombre o código...">
-            <button id="searchButton">Buscar</button>
-        </div>
-        <div class="filters">
-            <label for="filterBrand">Marca:</label>
-            <select id="filterBrand">
-                <option value="">Todas</option>
-                </select>
-        </div>
-    </header>
+    <div class="page-container">
+        <header>
+            <div class="nav-logo"> 
+                <img src="asset/logo.png" alt="">
+                <h1>Catálogo MR Partes</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar producto por nombre o código...">
+                <button id="searchButton">Buscar</button>
+            </div>
+            <!-- <div class="filters">
+                <label for="filterBrand">Marca:</label>
+                <select id="filterBrand">
+                    <option value="">Todas</option>
+                    </select>
+            </div> -->
+        </header>
 
-    <main id="productsContainer">
-        <p>Cargando productos...</p>
-    </main>
+        <main id="productsContainer">
+            <p>Cargando productos...</p>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 GEO MOTOS - Catálogo Offline</p>
-    </footer>
-
+        <footer class="footer-container">
+            <p>&copy; 2025 MR Partes - Catálogo Offline</p>
+        </footer>
+    </div>
     <script src="data/app.js"></script>
 </body>
 </html>
