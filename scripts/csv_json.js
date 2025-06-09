@@ -3,7 +3,7 @@ const path = require('path');
 const csv = require('csv-parser');
 
 const csvInputPath = path.resolve(__dirname, '../catalogo_mrpartes.csv'); // products.csv en la raíz
-const jsonOutputPath = path.resolve(__dirname, '../catalogo_mrpartes.json'); // data/products.json
+const jsonOutputPath = path.resolve(__dirname, '../data/catalogo_mrpartes.json'); // Guarda el JSON en la carpeta 'data'; // data/products.json
 
 const products = [];
 
