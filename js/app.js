@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("1. app.js loaded and DOMContentLoaded fired.");
     const productsContainer = document.getElementById('productsContainer');
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
@@ -8,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para cargar los productos desde el JSON
     async function fetchProducts() {
+        console.log("2. fetchProducts() called. Attempting to fetch JSON...");
         try {
             const response = await fetch('data/catalogo_mrpartes.json');
             if (!response.ok) {
