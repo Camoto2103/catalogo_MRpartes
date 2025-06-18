@@ -1,47 +1,92 @@
 [
-    {
-        "id": "1",
-        "nombre": "TENSOR CADENILLA BOXER CT 100",
-        "codigo": "REP542",
-        "precio": 8000,
-        "marca": "NORTH PANTHR",
-        "imagenUrl": "https://via.placeholder.com/150?text=Tensor+Boxer",
-        "estado": "disponible"
-    },
-    {
-        "id": "2",
-        "nombre": "TAPA DE GASOLINA PULSAR 180",
-        "codigo": "PTR293",
-        "precio": 14000,
-        "marca": "NORTH PANTHR",
-        "imagenUrl": "https://via.placeholder.com/150?text=Tapa+Pulsar",
-        "estado": "agotado"
-    },
-    {
-        "id": "3",
-        "nombre": "BUJIA PULSAR 200 NS",
-        "codigo": "SPK123",
-        "precio": 25000,
-        "marca": "NGK",
-        "imagenUrl": "https://via.placeholder.com/150?text=Bujia+Pulsar",
-        "estado": "disponible"
-    },
-    {
-        "id": "4",
-        "nombre": "FILTRO DE AIRE AKT NKD",
-        "codigo": "FILT001",
-        "precio": 12000,
-        "marca": "AKT",
-        "imagenUrl": "https://via.placeholder.com/150?text=Filtro+NKD",
-        "estado": "disponible"
-    },
-    {
-        "id": "5",
-        "nombre": "LLANTA TRASERA YAMAHA FZ 16",
-        "codigo": "LLANTA005",
-        "precio": 180000,
-        "marca": "MICHELIN",
-        "imagenUrl": "https://via.placeholder.com/150?text=Llanta+FZ16",
-        "estado": "disponible"
-    }
+  {
+    "id": 1,
+    "nombre": "TENSOR CADENILLA BOXER CT 100",
+    "codigo": "REP542",
+    "precio": 8000,
+    "marca": "NORTH PANTHR",
+    "imagenUrl": "https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 2,
+    "nombre": "TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR",
+    "codigo": "PTR293",
+    "precio": 14000,
+    "marca": "NORTH PANTHR",
+    "imagenUrl": "https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing",
+    "estado": "AGOTADO"
+  },
+  {
+    "id": 3,
+    "nombre": "BUJIA NKD D8TC KCC",
+    "codigo": "REP1014",
+    "precio": 2200,
+    "marca": "NKD",
+    "imagenUrl": "https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 4,
+    "nombre": "FILTRO DE AIRE AKT RTX150 KDM-249",
+    "codigo": "PTR506",
+    "precio": 12000,
+    "marca": "AKT",
+    "imagenUrl": "https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 5,
+    "nombre": "LLANTA PANTHER 90/90-17 TL LAGARTO",
+    "codigo": "GEO010",
+    "precio": 85000,
+    "marca": "PANTHER",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 6,
+    "nombre": "CADENA PANTHER 428H-132",
+    "codigo": "REP161",
+    "precio": 16500,
+    "marca": "PANTHER",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 7,
+    "nombre": "NEUMATICO PANTHER 500-12",
+    "codigo": "REP371",
+    "precio": 12300,
+    "marca": "PANTHER",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 8,
+    "nombre": "BALINERA THUNDER 6204",
+    "codigo": "REP029",
+    "precio": 2900,
+    "marca": "THUNDER",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 9,
+    "nombre": "AMORTIGUADORES AKT NKD 125 KCC",
+    "codigo": "REP1003",
+    "precio": 80000,
+    "marca": "AKT",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  },
+  {
+    "id": 10,
+    "nombre": "BANDAS AGILITY KCC",
+    "codigo": "REP1011",
+    "precio": 8600,
+    "marca": "AGILITY",
+    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+    "estado": "DISPONIBLE"
+  }
 ]
