@@ -1,6 +1,11 @@
-id;nombre;codigo;precio;marca;imagenUrl;estado
-1;TENSOR CADENILLA BOXER CT 100;REP542;8000;NORTH PANTHR;https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing;disponible
-2;TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR;PTR293;14000;NORTH PANTHR;https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing;agotado
-3;BUJIA NKD D8TC KCC;REP1014;2200;NKD;https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing;disponible
-4;FILTRO DE AIRE AKT RTX150 KDM-249;PTR506;12000;AKT;https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing;disponible
-5;LLANTA PANTHER 90/90-17 TL LAGARTO;GEO010;85000;PANTHER;https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing;disponible
+id,nombre,codigo,precio,marca,imagenUrl,estado
+1,TENSOR CADENILLA BOXER CT 100,REP542,8000,NORTH PANTHR,https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing,DISPONIBLE
+2,TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR,PTR293,14000,NORTH PANTHR,https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing,AGOTADO
+3,BUJIA NKD D8TC KCC,REP1014,2200,NKD,https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing,DISPONIBLE
+4,FILTRO DE AIRE AKT RTX150 KDM-249,PTR506,12000,AKT,https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing,DISPONIBLE
+5,LLANTA PANTHER 90/90-17 TL LAGARTO,GEO010,85000,PANTHER,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,DISPONIBLE
+6,CADENA PANTHER 428H-132,REP161,16500,PANTHER,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,AGOTADO
+7,NEUMATICO PANTHER 500-12,REP371,12300,PANTHER,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,DISPONIBLE
+8,BALINERA THUNDER 6204,REP029,2900,THUNDER,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,DISPONIBLE
+9,AMORTIGUADORES AKT NKD 125 KCC,REP1003,80000,AKT,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,DISPONIBLE
+10,BANDAS AGILITY KCC,REP1011,8600,AGILITY,https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing,DISPONIBLE

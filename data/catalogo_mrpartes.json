@@ -1,132 +1,92 @@
 [
-  {
-    "id": 1,
-    "nombre": "TENSOR CADENILLA BOXER CT 100",
-    "codigo": "REP542",
-    "precio": 8000,
-    "marca": "NORTH PANTHR",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1MFgbQd0zVfrSoipwn-pjtEXAjzcQ9GYu/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 2,
-    "nombre": "TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR",
-    "codigo": "PTR293",
-    "precio": 14000,
-    "marca": "NORTH PANTHR",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/11siQcTyESxV7FwXFBIf1xvanLLdaW6-3/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "AGOTADO"
-  },
-  {
-    "id": 3,
-    "nombre": "BUJIA NKD D8TC KCC",
-    "codigo": "REP1014",
-    "precio": 2200,
-    "marca": "NKD",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/179zkiScSXBiGvuyo-bXf5ZxRgtXTyhvm/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 4,
-    "nombre": "FILTRO DE AIRE AKT RTX150 KDM-249",
-    "codigo": "PTR506",
-    "precio": 12000,
-    "marca": "AKT",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1sIOQ-XWOylMdQ3edEF45fXnIVa7XgkNU/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 5,
-    "nombre": "LLANTA PANTHER 90/90-17 TL LAGARTO",
-    "codigo": "GEO010",
-    "precio": 85000,
-    "marca": "PANTHER",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1n4tblubnubrlTaUzo5eHFut2yhFCFmf1/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 6,
-    "nombre": "CADENA PANTHER 428H-132",
-    "codigo": "REP161",
-    "precio": 16500,
-    "marca": "PANTHER",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1rsfmo6Vj7ShwUfdavRNJ5O-XfAxYsJTD/view?usp=sharing",
-    "estado": "AGOTADO"
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
-    "estado": "DISPONIBLE"
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-  },
-  {
-    "id": 7,
-    "nombre": "NEUMATICO PANTHER 500-12",
-    "codigo": "REP371",
-    "precio": 12300,
-    "marca": "PANTHER",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1K7rYXjdMYfNK4NuYYhbaHclyJoKSD8Gq/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 8,
-    "nombre": "BALINERA THUNDER 6204",
-    "codigo": "REP029",
-    "precio": 2900,
-    "marca": "THUNDER",
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 9,
-    "nombre": "AMORTIGUADORES AKT NKD 125 KCC",
-    "codigo": "REP1003",
-    "precio": 80000,
-    "marca": "AKT",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/131zCcCZqKY0ZGC9wgCfx5YUIungRHnHO/view?usp=sharing",
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
-    "estado": "DISPONIBLE"
-  },
-  {
-    "id": 10,
-    "nombre": "BANDAS AGILITY KCC",
-    "codigo": "REP1011",
-    "precio": 8600,
-    "marca": "AGILITY",
-<<<<<<< HEAD
-    "imagenUrl": "https://drive.google.com/file/d/1L1S-BKQR7srhP5FReKhL60v-mNqjx3Dc/view?usp=sharing",
-    "estado": "DISPONIBLE"
-  }
+    {
+        "id": "1",
+        "nombre": "TENSOR CADENILLA BOXER CT 100",
+        "codigo": "REP542",
+        "precio": 8000,
+        "marca": "NORTH PANTHR",
+        "imagenUrl": "https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "2",
+        "nombre": "TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR",
+        "codigo": "PTR293",
+        "precio": 14000,
+        "marca": "NORTH PANTHR",
+        "imagenUrl": "https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing",
+        "estado": "AGOTADO"
+    },
+    {
+        "id": "3",
+        "nombre": "BUJIA NKD D8TC KCC",
+        "codigo": "REP1014",
+        "precio": 2200,
+        "marca": "NKD",
+        "imagenUrl": "https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "4",
+        "nombre": "FILTRO DE AIRE AKT RTX150 KDM-249",
+        "codigo": "PTR506",
+        "precio": 12000,
+        "marca": "AKT",
+        "imagenUrl": "https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "5",
+        "nombre": "LLANTA PANTHER 90/90-17 TL LAGARTO",
+        "codigo": "GEO010",
+        "precio": 85000,
+        "marca": "PANTHER",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "6",
+        "nombre": "CADENA PANTHER 428H-132",
+        "codigo": "REP161",
+        "precio": 16500,
+        "marca": "PANTHER",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "AGOTADO"
+    },
+    {
+        "id": "7",
+        "nombre": "NEUMATICO PANTHER 500-12",
+        "codigo": "REP371",
+        "precio": 12300,
+        "marca": "PANTHER",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "8",
+        "nombre": "BALINERA THUNDER 6204",
+        "codigo": "REP029",
+        "precio": 2900,
+        "marca": "THUNDER",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "9",
+        "nombre": "AMORTIGUADORES AKT NKD 125 KCC",
+        "codigo": "REP1003",
+        "precio": 80000,
+        "marca": "AKT",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": "10",
+        "nombre": "BANDAS AGILITY KCC",
+        "codigo": "REP1011",
+        "precio": 8600,
+        "marca": "AGILITY",
+        "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
+        "estado": "DISPONIBLE"
+    }
 ]
-=======
-    "imagenUrl": "https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing",
-    "estado": "DISPONIBLE"
-  }
-]
->>>>>>> 6553d0dee89137ad2f7cb6b9754311a73f2acf57
