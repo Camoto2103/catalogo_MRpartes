@@ -1,15 +1,10 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .page-container {
@@ -19,14 +14,16 @@ html, body {
 }
 
 header {
-    /* background-color: #333; */
-    color: #fff;
-    padding: 1rem;
+    color: #222121;
+    padding: 1rem; 
     text-align: center;
+    margin: 0;
+    /* Eliminamos padding extra del header si ya lo tiene el nav-logo o h1 */
 }
 
 header h1 {
     margin: 0;
+    font-size: 4rem;
 }
 
 .nav-logo{
@@ -40,74 +37,146 @@ header h1 {
     margin-right: 10px; 
 }
 
-.search-container {
-    margin-top: 1rem;
+
+.search-filters-container{
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
+    padding: 2rem 1rem; 
+    background-color:#e21c1b;
+    margin-bottom: 50px;
 }
 
-.search-container input, .search-container button {
-    padding: 0.5rem;
-    margin: 0.2rem;
-    border-radius: 4px;
-    border: none;
+
+.search-container {
+    display: flex;
+    align-items: center; 
+    gap: 0.8rem; 
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    flex-basis: 400px; 
+    flex-grow: 1; 
+    flex-shrink: 1;
+    max-width: 500px; 
+    min-width: 320px; 
+}
+
+.search-container:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 .search-container input {
-    width: 60%;
-    max-width: 300px;
+    padding: 0.9rem; 
+    margin: 0; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex-grow: 1; 
+    font-size: 1rem;
+    outline: none; 
+}
+
+.search-container input:focus {
+    border-color: #e21c1b; /*
+    box-shadow: 0 0 5px rgba(226, 28, 27, 0.5); /* Sombra al enfocar */
 }
 
 .search-container button {
-    background-color: #adadad;
-    /* color: white; */
+     padding: 0.9rem 1.5rem; /* Aumenta el padding para el botón */
+    background-color: #444;
+    color: white;
     cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.search-container button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+
 .filters {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background-color: #444;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem; 
+    background-color: #f4f4f4;
+    border-radius: 12px; 
+    padding: 1.2rem 1.5rem; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    max-width: 500px; 
+    min-width: 320px; 
+}
+
+.filters:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 .filters label {
-    color: white;
-    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 2em;
+    color: #333;
+    flex-shrink: 0; 
 }
 
 .filters select {
-    padding: 0.3rem;
-    border-radius: 3px;
-    border: none;
+    padding: 0.9rem; 
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+    flex-grow: 1; 
+    font-size: 1rem;
+    background-color: white;
+    outline: none; 
+    cursor: pointer;
 }
 
+.filters select:focus {
+    border-color: #e21c1b; 
+    box-shadow: 0 0 5px rgba(226, 28, 27, 0.5); 
+}
 
-main {
+main#productsContainer { 
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 3rem;
     flex: 1;
+    /* background-color: #444; */ /* Comentado porque el fondo es del body o page-container */
+    max-width: 1000px; 
+    margin: 0 auto; 
 }
 
 .product-card {
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
     max-width: 100%;
-    height: 150px; /* Altura fija para uniformidad */
-    object-fit: contain; /* Para que la imagen no se recorte y mantenga su relación de aspecto */
+    height: 150px;
+    object-fit: contain;
     margin-bottom: 0.5rem;
 }
 
 .product-card h2 {
     font-size: 1.2rem;
     margin: 0.5rem 0;
+    color: #e21c1b;
 }
 
 .product-card p {
@@ -117,23 +186,45 @@ main {
 
 .product-card .price {
     font-weight: bold;
-    color: #28a745;
+    color: #e21c1b;
     font-size: 1.1rem;
 }
 
-/* footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-} */
 
 .footer-container {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .nav-logo h1 {
+        font-size: 2.5em; 
+    }
+    .nav-logo img {
+        height: 150px; 
+    }
+
+    .search-filters-container {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 1.5rem 0.5rem; 
+    }
+
+    .search-container,
+    .filters {
+        flex-basis: 95%; 
+        max-width: 95%;
+        min-width: unset; 
+        padding: 1rem; 
+    }
+
+    .search-container input, 
+    .search-container button,
+    .filters select {
+        font-size: 0.9rem; 
+        padding: 0.7rem; 
+    }
 }

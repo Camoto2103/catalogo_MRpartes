@@ -7,6 +7,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let allProducts = []; // Para almacenar todos los productos cargados
 
+    // Función para obtener el ID de Google Drive y construir la URL directa
+    function getGoogleDriveDirectLink(viewUrl) {
+        if (!viewUrl) {
+            return 'https://via.placeholder.com/150?text=No+Image'; // Imagen por defecto si no hay URL
+        }
+        // Expresión regular para extraer el ID del archivo de Google Drive
+        const match = viewUrl.match(/\/d\/([a-zA-Z0-9_-]+)(?:\/view)?/);
+        if (match && match[1]) {
+            const fileId = match[1];
+            // Construir la URL de descarga directa
+            return `https://drive.google.com/uc?export=download&id=${fileId}`;
+        }
+        // Si no se puede extraer el ID, devuelve la URL original o una por defecto
+        return viewUrl; // O 'https://via.placeholder.com/150?text=No+Image' si prefieres no intentar con la URL original fallida
+    }
+
     // Función para cargar los productos desde el JSON
     async function fetchProducts() {
         console.log("2. fetchProducts() called. Attempting to fetch JSON...");
@@ -35,8 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
         products.forEach(product => {
             const productCard = document.createElement('div');
             productCard.classList.add('product-card');
+            // Usar la función getGoogleDriveDirectLink para obtener la URL correcta de la imagen
+            const imageUrl = getGoogleDriveDirectLink(product.imagenUrl);
             productCard.innerHTML = `
-                <img src="${product.imagenUrl || 'https://via.placeholder.com/150?text=No+Image'}" alt="${product.nombre}">
+                <img src="${imageUrl}" alt="${product.nombre}">
                 <h2>${product.nombre}</h2>
                 <p>Código: ${product.codigo}</p>
                 <p>Marca: ${product.marca || 'N/A'}</p>
@@ -90,7 +108,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     filterBrandSelect.addEventListener('change', applyFilters);
-
 
     // Cargar productos cuando el DOM esté listo
     fetchProducts();

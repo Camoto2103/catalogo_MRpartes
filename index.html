@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Catalogo MR Partes</title>
 </head>
 <body>
     <div class="page-container">
         <header>
             <div class="nav-logo"> 
-                <img src="asset/logo.png" alt="">
-                <h1>Catálogo MR Partes</h1>
+                <img class="img-logo" src="asset/images/logo.png" alt="">
+                <h1>Catálogo MR PARTES</h1>
             </div>
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Buscar producto por nombre o código...">
-                <button id="searchButton">Buscar</button>
-            </div>
+        </header>
+
+        <div class="search-filters-container">
             <div class="filters">
                 <label for="filterBrand">Marca:</label>
                 <select id="filterBrand">
                     <option value="">Todas</option>
                     </select>
             </div>
-        </header>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar producto por nombre o código...">
+                <button id="searchButton">Buscar</button>
+            </div>
+            
+        </div>
 
-        <main id="productsContainer">
+
+        <main id="productsContainer"> 
             <p>Cargando productos...</p>
         </main>
 

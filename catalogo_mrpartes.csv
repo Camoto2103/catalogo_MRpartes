@@ -1,6 +1,6 @@
-id,nombre,codigo,precio,marca,imagenUrl,estado
-1,TENSOR CADENILLA BOXER CT 100,REP542,8000,NORTH PANTHR,https://via.placeholder.com/150?text=Tensor+Boxer,disponible
-2,TAPA DE GASOLINA PULSAR 180,PTR293,14000,NORTH PANTHR,https://via.placeholder.com/150?text=Tapa+Pulsar,agotado
-3,BUJIA PULSAR 200 NS,SPK123,25000,NGK,https://via.placeholder.com/150?text=Bujia+Pulsar,disponible
-4,FILTRO DE AIRE AKT NKD,FILT001,12000,AKT,https://via.placeholder.com/150?text=Filtro+NKD,disponible
-5,LLANTA TRASERA YAMAHA FZ 16,LLANTA005,180000,MICHELIN,https://via.placeholder.com/150?text=Llanta+FZ16,disponible
+id;nombre;codigo;precio;marca;imagenUrl;estado
+1;TENSOR CADENILLA BOXER CT 100;REP542;8000;NORTH PANTHR;https://drive.google.com/file/d/155Ug3hkSwjdjs_Ph14g0-VKXazoW1lTA/view?usp=sharing;disponible
+2;TAPA DE GASOLINA SZ-GN125-AX4 NORTH PANTHR;PTR293;14000;NORTH PANTHR;https://drive.google.com/file/d/1y0RNg42-flUoPtQuP8sCquqG7BFvo9vK/view?usp=sharing;agotado
+3;BUJIA NKD D8TC KCC;REP1014;2200;NKD;https://drive.google.com/file/d/1QvyD1dzL_B6wT3Fad7uGU_Yn16icG4_6/view?usp=sharing;disponible
+4;FILTRO DE AIRE AKT RTX150 KDM-249;PTR506;12000;AKT;https://drive.google.com/file/d/1CPlHdIelVRdvpsFskAqp2nYFFE6yHy4a/view?usp=sharing;disponible
+5;LLANTA PANTHER 90/90-17 TL LAGARTO;GEO010;85000;PANTHER;https://drive.google.com/file/d/1SF4YE_LR6IX9AiXFhAXgWuVDRZak8egE/view?usp=sharing;disponible
